@@ -1,4 +1,4 @@
-# Just Naturely - Icon Market Place 
+# Just Naturely - Icon Marketplace 
 
 Developing an Icon Marketplace out of custom-made SVG Icons. 
 
