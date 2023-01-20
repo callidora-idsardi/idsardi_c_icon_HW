@@ -1,5 +1,10 @@
-# My Super Awesome Icon Marketplace
+# Just Naturely - Icon Market Place 
+
 Developing an Icon Marketplace out of custom-made SVG Icons. 
+
+Theme: Desert Festival 🌵
+
+Quantity: 10
 
 ## Contributing
 1. Fork it!
