@@ -6,29 +6,73 @@ the let statement creates a variable - a chunk of computer memory that can hold 
 
 document refers to the index.html pagel querySelection is HOW JS uses CSS to select elements on the page (called a method)
 */
+ 
 
-// step 1 - select the elements you want the user to interact with (similar to css classes/ids)
-let bitmapGraphic = document.querySelector("#bitmapGraphic"); 
+
+let coolBlueSun = document.querySelector("#coolBlueSun")
+document.querySelector("#coolBlueSun");
+
+let coolPinkFlower = document.querySelector("#coolPinkFlower")
+document.querySelector("#coolPinkFlower");
+
+let coolCactus = document.querySelector("#coolCactus")
+document.querySelector("#coolCactus");
+
+let coolColourfulFlowers = document.querySelector("#coolColourfulFlowers")
+document.querySelector("#coolColourfulFlowers");
+
+let coolSunnyCloud = document.querySelector("#coolSunnyCloud")
+document.querySelector("#coolSunnyCloud");
+
+let coolRainyCloud = document.querySelector("#coolRainyCloud")
+document.querySelector("#coolRainyCloud");
+
+let coolFunkyTree = document.querySelector("#coolFunkyTree")
+document.querySelector("#coolFunkyTree");
+
+let coolMusicNote = document.querySelector("#coolMusicNote")
+document.querySelector("#coolMusicNote");
+
+let coolLightningBolt = document.querySelector("#coolLightningBolt")
+document.querySelector("#coolLightningBolt");
+
+let coolStarryMoon = document.querySelector("#coolStarryMoon")
+document.querySelector("#coolStarryMoon");
 
 // step 3 - what happens when events are triggered? 
-
 function logID() {
-    console.log(this.id); 
+    console.log('Clicked on this Desert Festival icon:', this.id);(this.id); 
 }
+
 
 // step 2 - how do you want the user to interact with the element? 
 
-bitmapGraphic.addEventListener('click', logID);
+coolBlueSun.addEventListener('click', logID); 
 
-// SVG Graphic
+coolPinkFlower.addEventListener('click', logID); 
 
-let svgGraphic = document.querySelector("#svgGraphic"); 
+coolCactus.addEventListener('click', logID); 
 
-function logID() {
-    console.log(this.id); 
-}
+coolColourfulFlowers.addEventListener('click', logID); 
 
-svgGraphic.addEventListener('click', logID); 
+coolSunnyCloud.addEventListener('click', logID); 
+
+coolRainyCloud.addEventListener('click', logID);
+
+coolFunkyTree.addEventListener('click', logID);
+
+coolMusicNote.addEventListener('click', logID);
+
+coolLightningBolt.addEventListener('click', logID);
+
+coolStarryMoon.addEventListener('click', logID);
+
+
+
+
+
+
+
 
 
 
