@@ -1,12 +1,11 @@
-# Just Naturely - Icon Marketplace 
+# <img src="imgs/cactus_icon.svg" alt="Green cactus with multi-colored flowers" width="60px"> Just Naturely - Icon Marketplace 
 
-Developing an Icon Marketplace out of custom-made SVG Icons. 
+Developing an Icon Marketplace out of custom-made SVG Icons. Contains fun CSS interactions that flip, spin or change the icon's colour. 
+
 
 Theme: Desert Festival 
-<img src="cactus_icon.svg" alt="Green cactus with multi-colored flowers">
 
-
-Quantity: 10
+Icon Quantity: 10
 
 ## Contributing
 1. Fork it!
