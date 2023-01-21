@@ -2,6 +2,10 @@
 .hidden { display: none; }
 
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #container {
 	margin: 0 auto;
 	width: 1920px;
@@ -10,8 +14,8 @@
 .grid-con {
 
     display: grid;
-	grid-template-columns: repeat(12, 109px);
-	grid-column-gap: 30px;
+	grid-template-columns: repeat(12, 122px);
+	grid-column-gap: 16px;
 	padding-left: 140px;
 	padding-right: 140px;
 }
@@ -26,7 +30,7 @@
     font-size: 90px;
     font-family: 'Lobster', Arial, sans-serif, cursive; 
     letter-spacing: 13px;
-    color: #7EB375;
+    color: #15A300;
     margin-bottom: 0;
 }
 
@@ -40,12 +44,16 @@
 
 }
 
-#main-nav {
+#main-con h3 {
+    font-size: 30px;
+}
+
+.main-nav {
      
     grid-column: 9/-1;
 }
 
-#nav-background {
+.nav-background {
 
     background: #EBEBEB;
     padding: 5px 1px;
@@ -53,58 +61,125 @@
     border-radius: 66px;
     padding-left: 0px;
     margin-right: 0px;
+    box-shadow: 5px 5px 5px gray;
 }
 
-#main-nav ul {
+.main-nav ul {
 	list-style: none;
-    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-#main-nav ul li {
+.main-nav ul li {
     display: inline;
     margin-right: 50px;
+
    
     
 }
 
-#main-nav ul li a {
+.main-nav ul li a {
     color: #000000; 
     text-decoration: none;
+    font-size: 30px;
+    transition: all .7s ease;
 
 }
 
-#main-nav ul li a:hover {
-    border-bottom: 5px solid #7EB375;
+.main-nav ul li a:hover {
+    border-bottom: 5px solid #15A300;
     padding-bottom: 8px;
     text-decoration: none;
 }
 
-.search {
-	grid-column: 9/-1;
+
+#icon-set {
+    background-color: #88a2d7e6;
+    grid-column: 1/-1;
+    border-radius: 259px;
+    text-align: center;
+    box-shadow: 13px 6px 6px #88a2d75f; 
 }
 
-.search .search-collection {
-	position: relative;
-	left: 3em;
-	border: none;
-	border-radius:  5px;
-	font: inherit;
-	font-size: 30px;
-	color: #000000;
-	margin-top: 53px;
-	padding: 10px;
-	}
-
-#search-submit {
-	background-color: #88a2d763;  
-	margin-left: 10px;
-}
-
-#search-submit:hover {
-    background-color: #88A2D7;
-	cursor: pointer;
+#icon-set h2 {
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-size: 50px;
 }
 
 
+.icons {
+    display: inline-block;  
+    margin: 50px;
+    width: 20%;
+    cursor: pointer;
+}
+
+
+.icons a {
+    display: block;
+    margin-top: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000000;
+
+}
+
+#footer-nav {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/*SVG animations*/
+
+.svgTransform {
+    transition: all 2s ease;
+}
+
+#coolBlueSun:hover .cls-10 {
+    fill: #ECBA5E;
+    cursor: pointer;
+    
+}
+
+#coolBlueSun:hover  .cls-1{ fill: #ECBA5E; }
+#coolBlueSun:hover .cls-11{ fill: #ECBA5E; }
+#coolBlueSun:hover  .cls-2{ fill: #ECBA5E; }
+#coolBlueSun:hover  .cls-4{ fill: #ECBA5E; }
+#coolBlueSun:hover .cls-3{ fill: #ECBA5E; }
+
+#coolPinkFlower:hover { 
+    transform: rotate(140deg); 
+}
+
+#coolCactus:hover {
+    transform: scaleX(-1);
+}
+
+#coolColourfulFlowers:hover {
+    transform: scale(-1, -1);
+}
+
+#coolSunnyCloud:hover {
+    transform:rotate(360deg); 
+}
+
+#coolRainyCloud:hover {
+    transform: scaleX(-1);
+}
+
+#coolFunkyTree:hover{
+    transform: scale(-1, -1);
+}
+
+#coolMusicNote:hover{
+    transform:rotate(360deg); 
+}
+#coolLightningBolt:hover{
+    transform: scaleX(-1);
+
+}
+#coolStarryMoon:hover{
+    transform: scale(-1);
+}
