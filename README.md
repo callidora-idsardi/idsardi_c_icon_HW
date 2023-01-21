@@ -2,7 +2,9 @@
 
 Developing an Icon Marketplace out of custom-made SVG Icons. 
 
-Theme: Desert Festival 🌵
+Theme: Desert Festival 
+<img rc="cactus_icon.svg" alt="Green cactus with multi-colored flowers">
+
 
 Quantity: 10
 
