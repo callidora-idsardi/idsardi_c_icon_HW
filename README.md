@@ -2,6 +2,8 @@
 
 Developing an Icon Marketplace out of custom-made SVG Icons. Contains fun CSS interactions that flip, spin or change the icon's colour. 
 
+When clicked, a log message to the console appears with the ID of the element that you’ve clicked. The ID is retrieved and displayed
+with a JavaScript string template and variable.
 
 Theme: Desert Festival 
 
